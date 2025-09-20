@@ -1,25 +1,23 @@
 import {
-  FAQ,
-  Featured,
-  FinancialFuture,
-  FinancilaFreedom,
   HeroSection,
-  IntroSection,
-  JoinSection,
-  OffersSection,
+  FunnelSection,
+  SamplesSection,
+  PlatformFeaturesSection,
+  VideoTypesSection,
+  HowItWorksSection,
+  DemoModal,
 } from '@/components';
 
 export default function Home() {
   return (
-    <main>
+    <main id="main-content">
       <HeroSection />
-      <Featured />
-      <OffersSection />
-      <FinancilaFreedom />
-      <FinancialFuture />
-      <IntroSection />
-      <JoinSection />
-      <FAQ />
+      <FunnelSection />
+      <SamplesSection />
+      <PlatformFeaturesSection />
+      <VideoTypesSection />
+      <HowItWorksSection />
+      <DemoModal />
     </main>
   );
 }

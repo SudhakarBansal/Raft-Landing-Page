@@ -3,8 +3,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Raft',
-  description: 'Building the future of banking',
+  title: 'Whilter - The Complete Platform',
+  description: 'Make Black Friday Great Again - Crush your Black Friday targets with content that wins',
 };
 
 export default function RootLayout({
